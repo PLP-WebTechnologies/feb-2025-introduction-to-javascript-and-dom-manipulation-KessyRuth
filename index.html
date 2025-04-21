@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript and DOM Manipulation</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    .highlight {
+      color: green;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 id="main-title">Climate Change</h1>
+  </header>
+
+  <section>
+    <p id="description">Climate change refers to long-term shifts in temperatures and weather patterns on Earth. 
+     <br> While climate variations can occur naturally, current changes are happening at an unprecedented rate due to human activities—mainly the burning of fossil fuels like coal, oil, and gas. </p>
+    <button onclick="changeText()">Change Text</button>
+    <button onclick="toggleStyle()">Toggle Style</button>
+  </section>
+
+  <section>
+    <h2>Dynamic List</h2>
+    <ul id="item-list">
+      <li>Item 1</li>
+      <li>Item 2</li>
+    </ul>
+    <button onclick="addItem()">Add Item</button>
+    <button onclick="removeItem()">Remove Item</button>
+  </section>
+
+  <footer>
+    <p>Created in 2025.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
